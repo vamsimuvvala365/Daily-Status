@@ -1,0 +1,92 @@
+//alert("Hello now you can start")
+//alert("Hi You are ready to start")
+console.log(2 + 1)
+let firstname = "Vamsi"
+let lastname = "Muvvala"
+console.log(`My name is ${firstname} ${lastname}`)
+
+let name = 2
+if (name < "3") {
+    console.log("You are Acess for this")
+}
+let feedback = "Out Standing"
+if (feedback === "Out Standing") {
+    console.log("you are eligible ")
+}
+let rating = 5
+if (rating >= 3) {
+    console.log("You Passed")
+} else if (rating === 2) {
+    console.log("you are fairly eligible for this")
+}
+else if (rating === 1) {
+    console.log("You are doubt to pass")
+}
+else {
+    console.log("you are not eligible")
+}
+let matchscore = 40;
+let Actualscore = 70;
+if (Actualscore <= 50) {
+    console.log(`sorrry you score must be ${matchscore} to Pass, 
+        yo are not eligle fo this`)
+}
+else {
+    console.log(`Hurrey You got Passed and scored more than ${matchscore}`)
+}
+let password = "vamsi";
+if (password.length >= 6) {
+    console.log(`${password} is not enough to set Password`)
+}
+if (password === "vamsiiii") {
+    console.log("password is too high")
+}
+
+else {
+    console.log("password Valid")
+}
+
+let Username = "vamsi"
+if (Username) {
+    console.log("You are ready to start")
+}
+else {
+    console.log("Please Login to Start")
+}
+
+let fname = "vamsi";
+if (fname) {
+    console.log("You are welldone")
+}
+if (fname.length<6) {
+console.log("You are welldone but Password must be higher or eual to 6")
+}
+else {
+    console.log("Please Login IN")
+}
+
+let bike= "motor";
+if (bike) {
+    console.log("You Logged IN")
+}
+else{
+    alert("Please Login to strat")
+}
+let Age=70; 
+
+
+if (Age>=50 && bike==="motor") {
+    console.log(" You are elligible")
+}
+else{
+    console.log("You are not eligible")
+}
+
+let customerAgee = 39;
+let customer = "female";
+if (customer==="male"||customer==="other"|| customerAgee>=18 && customerAgee<40){
+    console.log("You are eligible for this game")
+}
+else{
+    console.log("You are unfit for this game")
+}
