@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Started JS</title>
+    <script src=demo.js></script>
+    <style>
+        .main_cont {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        .left_Containor h1 {
+            display: flex;
+            justify-content: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .left_Containor p {
+            display: flex;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+
+        }
+
+        .right_Containor h1 {
+            display: flex;
+            justify-content: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .right_Containor p {
+            display: flex;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        .main {
+
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(106, 114, 138, 0.4234068627450981) 35%, rgba(0, 212, 255, 1) 100%);
+            
+        }
+
+        .main_head a{
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            word-spacing: 6px;
+            color: black;
+        }
+        
+        
+        
+        @media only screen and (max-width: 640px) {
+            .left_Containor {
+                width: 80%;
+
+            }
+
+            .right_Containor {
+                width: 80%;
+
+            }
+
+            .main_cont {
+                display: flex;
+                flex-direction: column;
+
+
+            }
+
+            .right_Containor img {
+                width: 100%;
+            }
+
+            .left_Containor img {
+                width: 100%;
+            }
+
+            .main {
+                background-color: burlywood;
+               
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_head">
+            <a href=""><h2>GAME GET STARTED </h1></a>
+        </div>
+
+        <div class="main_cont">
+            <div class="left_Containor">
+                <h1>HEADING</h1>
+                <P>Para Graph</P>
+                <a href="https://www.youtube.com/watch?v=1H3yrMGU-UY" target="blank"> <img
+                        src="https://i.ytimg.com/an_webp/E4KdXQ5w-DQ/mqdefault_6s.webp?du=3000&sqp=CIz-kPgF&rs=AOn4CLCelcgmlkjFJSvM8qZKQ3ZfsNsV-w"
+                        alt=""></a>
+
+            </div>
+            <div class="left_Containor">
+                <h1>HEADING</h1>
+                <P>Para Graph</P>
+                <a href="https://www.youtube.com/watch?v=1H3yrMGU-UY" target="blank"> <img
+                        src="https://i.ytimg.com/an_webp/3BgyexTgtoI/mqdefault_6s.webp?du=3000&sqp=CIyEkfgF&rs=AOn4CLDYdAquVfj7C-dWBxVRIC8YIomoCw"
+                        alt=""></a>
+
+            </div>
+
+            <div class="right_Containor">
+                <h1>HEADING</h1>
+                <P>Para Graph</P>
+                <a href="https://www.youtube.com/watch?v=1H3yrMGU-UY" target="blank"> <img
+                        src="https://i.ytimg.com/an_webp/aJQZmMyRzLg/mqdefault_6s.webp?du=3000&sqp=CKiokfgF&rs=AOn4CLDzRSd-aPdVRkvmnebKdK0A8Be9XA"
+                        alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="main_cont">
+            <div class="left_Containor">
+                <h1>HEADING</h1>
+                <P>Para Graph</P>
+                <a href="https://www.youtube.com/watch?v=1H3yrMGU-UY" target="blank"> <img
+                        src="https://i.ytimg.com/an_webp/HiQCPEjP4P8/mqdefault_6s.webp?du=3000&sqp=CNukkfgF&rs=AOn4CLCevnocFFcyf2jr7JzAqMj3bHFRjw"
+                        alt=""></a>
+
+            </div>
+
+            <div class="right_Containor">
+                <h1>HEADING</h1>
+                <P>Para Graph</P>
+                <a href="https://www.youtube.com/watch?v=1H3yrMGU-UY" target="blank"> <img
+                        src="https://i.ytimg.com/an_webp/E4KdXQ5w-DQ/mqdefault_6s.webp?du=3000&sqp=CIz-kPgF&rs=AOn4CLCelcgmlkjFJSvM8qZKQ3ZfsNsV-w"
+                        alt=""></a>
+
+            </div>
+            <div class="left_Containor">
+                <h1>HEADING</h1>
+                <P>Para Graph</P>
+                <a href="https://www.youtube.com/watch?v=1H3yrMGU-UY" target="blank"> <img
+                        src="https://i.ytimg.com/an_webp/3BgyexTgtoI/mqdefault_6s.webp?du=3000&sqp=CIyEkfgF&rs=AOn4CLDYdAquVfj7C-dWBxVRIC8YIomoCw"
+                        alt=""></a>
+
+            </div>
+        </div>
+    </div>
+ 
+
+</body>
+
+</html>
+
+
+
+
+
+
+alert("Hello now you can start")
+//alert("Hi You are ready to start")
+console.log(2 + 1)
+let firstname = "Vamsi"
+let lastname = "Muvvala"
+console.log(`My name is ${firstname} ${lastname}`)
+
+let name = 2
+if (name < "3") {
+    console.log("You are Acess for this")
+}
+let feedback = "Out Standing"
+if (feedback === "Out Standing") {
+    console.log("you are eligible ")
+}
+let rating = 5
+if (rating >= 3) {
+    console.log("You Passed")
+} else if (rating === 2) {
+    console.log("you are fairly eligible for this")
+}
+else if (rating === 1) {
+    console.log("You are doubt to pass")
+}
+else {
+    console.log("you are not eligible")
+}
+let matchscore = 40;
+let Actualscore = 70;
+if (Actualscore <= 50) {
+    console.log(`sorrry you score must be ${matchscore} to Pass, 
+        yo are not eligle fo this`)
+}
+else {
+    console.log(`Hurrey You got Passed and scored more than ${matchscore}`)
+}
+let password = "vamsi";
+if (password.length >= 6) {
+    console.log(`${password} is not enough to set Password`)
+}
+if (password === "vamsiiii") {
+    console.log("password is too high")
+}
+
+else {
+    console.log("password Valid")
+}
+
+let Username = "vamsi"
+if (Username) {
+    console.log("You are ready to start")
+}
+else {
+    console.log("Please Login to Start")
+}
+
+let fname = "vamsi";
+if (fname) {
+    console.log("You are welldone")
+}
+if (fname.length < 6) {
+    console.log("You are welldone but Password must be higher or eual to 6")
+}
+else {
+    console.log("Please Login IN")
+}
+
+let bike = "motor";
+if (bike) {
+    console.log("You Logged IN")
+}
+else {
+    alert("Please Login to strat")
+}
+let Age = 70;
+
+
+if (Age >= 50 && bike === "motor") {
+    console.log(" You are elligible")
+}
+else {
+    console.log("You are not eligible")
+}
+
+let customerAgee = 39;
+let customer = "female";
+if (customer === "male" || customer === "other" || customerAgee >= 18 && customerAgee < 40) {
+    console.log("You are eligible for this game")
+}
+else {
+    console.log("You are unfit for this game")
+}
+
+let day = 9
+switch (day) {
+    case 1:
+        console.log("Monday")
+        break;
+    case 2:
+        console.log("Tuesday")
+        break;
+    case 3:
+        console.log("Wednesday")
+        break;
+    case 4:
+        console.log("Thursday")
+        break;
+    case 5:
+        console.log("Friday")
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid Day");
+
+
+}
+let Agee = 17
+let names = "krishnaa"
+
+
+
+if (Agee>18 && names.length>6){
+    console.log("You are  Allowed")
+}
+else{
+    console.log("You are not Allowed")
+}
